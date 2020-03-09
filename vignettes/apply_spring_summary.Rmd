@@ -1,0 +1,31 @@
+---
+title: "apply_spring_summary"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{apply_spring_summary}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(rainbow)
+```
+
+## Example of using spring summary
+
+
+```{r example}
+
+
+data(sbdata)
+
+res = spring_summary(sbdata, spring_out=TRUE )
+head(res)
+
+allyear = res[[2]]
+ggplot(allyear, aes(as.factor(year), tavg_mean, fill=precip_sum))+geom_col()
+
+```
+
