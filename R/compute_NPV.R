@@ -1,9 +1,9 @@
 #' compute_NPV
-#' 
+#'
 #' compute net present value
 #' @param value/cost ($)
 #' @param time in the future that cost/value occurs (years)
-#' @param discount rate 
+#' @param discount rate
 #' @return value in $
 
 

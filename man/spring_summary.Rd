@@ -10,9 +10,9 @@ spring_summary(clim_data, spring_months = c(4:6), spring_out = FALSE)
 \item{clim_data}{data frame with columns tavg (C)
 rain (precip in mm), year, month (integer), day}
 
-\item{spring_out}{(default FALSE) set to TRUE to output spring precip and temperature for all years}
+\item{spring_months}{(vector of integers) to include in spring; default 4,5,6}
 
-\item{months}{(as integer) to include in spring; default 4,5,6}
+\item{spring_out}{(default FALSE) set to TRUE to output spring precip and temperature for all years}
 }
 \value{
 returns a list containing,

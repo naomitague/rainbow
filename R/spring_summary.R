@@ -3,7 +3,7 @@
 #' computes summary information about spring temperature and precipitation
 #' @param clim_data  data frame with columns tavg (C)
 #'	rain (precip in mm), year, month (integer), day
-#' @param months (as integer) to include in spring; default 4,5,6
+#' @param spring_months (vector of integers) to include in spring; default 4,5,6
 #' @param spring_out (default FALSE) set to TRUE to output spring precip and temperature for all years
 #' @return returns a list containing,
 #' \describe{
