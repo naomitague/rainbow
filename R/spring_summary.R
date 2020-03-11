@@ -7,16 +7,16 @@
 #' @param spring_out (default FALSE) set to TRUE to output spring precip and temperature for all years
 #' @return returns a list containing,
 #' \describe{
-#'  \item{mean_springT}{mean_springT mean spring temperature (C)}
-#'  \item{coldest_spring_yr}{ year with lowest spring temperature  (year)}
-#'  \item{warmest_spring_yr}{ year with highest spring temperature  (year)}
-#'  \item{coldest_springT}{  lowest spring temperature  (C)}
-#'  \item{warmest_springT}{  highest spring temperature  (C)}
-#'  \item{mean_springP}{ mean spring precipitation  (mm)}
-#'  \item{wettest_spring_yr}{ spring (as year) with highest precip (year)}
-#'  \item{wettest_springP}{  highest precip (mm)}
-#'  \item{driest_spring_yr}{ spring (as year) with highest precip (year)}
-#'  \item{driest_springP}{  highest precip (mm)}
+#'  \item{Tavg_spring}{mean_springT mean spring temperature (C)}
+#'  \item{Pavg_spring}{ mean spring precipitation  (mm)}
+#'  \item{Tmax_spring}{  highest spring temperature  (C)}
+#'  \item{Tmin_spring}{  lowest spring temperature  (C)}
+#'  \item{Pmax_spring}{highest spring precip (mm)}
+#'  \item{Pmin_spring}{ lowest spring precip (mm)}
+#'  \item{warmest_spring}{ year with highest spring temperature  (year)}
+#'  \item{coldest_spring}{ year with lowest spring temperature  (year)}
+#'  \item{wettest_spring}{ spring (as year) with highest precip (year)}
+#'  \item{driest_spring}{ spring (as year) with highest precip (year)}
 #'  and array of means for all years if spring_out set to TRUE
 #'  }
 
